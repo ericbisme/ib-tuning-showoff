@@ -1,0 +1,49 @@
+{
+  "name": "Peoplesoft Integration Broker Tuning for Volume and Performance",
+  "description": "HEUG",
+  "validators": {
+    "puppet": "puppet parser validate",
+    "ruby": "ruby -c"
+  },
+  "encoding": "ISO-8859-1",
+  "feedback": true,
+  "highlight": "atelier-cave.light",
+  "author": "Eric Bolinger",
+  "authtitle": "Senior PeopleSoft Systems Administrator",
+  "authemail": "eric.bolinger@cu.edu",
+  "organization": "University of Colorado",
+  "title": "Integration Broker Tuning",
+  "tagline": "For Volume and Performance",
+  "sesnum":  "3611",
+  "templates" : {
+      "default" : "cu.tpl",
+      "special" : "simple.tpl"
+  },
+  "pause_msg": "Paused !!!",
+	"sections": [
+		"title/title.md",
+
+		"demographics/demographics.md",
+
+		"content/integration_components_now.md",
+		"content/features_in_use.md",
+
+		"content/infrastructure/common_ib_gateway.md",
+		"content/infrastructure/dedicated_application_servers.md",
+
+		"content/async/dedicated_pubsub_processes.md",
+		"content/async/online_asynchronous_config.md",
+		"content/async/asynchronous_monitoring.md",
+
+		"content/sync/synchronous_messaging.md",
+		"content/sync/synchronous_tuning.md",
+                "content/sync/synchronous_statistics.md",
+
+		"content/load_testing.md",
+
+    "content/our_results.md",
+
+		"conclusion/questions.md",
+		"conclusion/appendix.md"
+	]
+}

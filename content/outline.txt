@@ -1,0 +1,15 @@
+IB features overview
+  dedicated message processes
+  dynamic slave servers
+  ordered vs unordered queues
+  SYNC vs ASYNC
+
+dive in to feature details
+
+Usage for different features
+  pagelet wizard
+  other application content
+  mobile apps
+  search SES/Elastic
+
+Common Gateway Pros/Cons
