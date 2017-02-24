@@ -7,4 +7,5 @@
   * Separate alerts for NEW vs ERROR
   * Finer control of time before alert
 * Header and Detail logging
-  * SQL watching for logging to be enabled
+  * Can affect performance under load
+  * Monitor for logging to be enabled

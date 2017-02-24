@@ -1,8 +1,8 @@
 <!SLIDE>
 # Synchronous Tuning
-* Inbound handled by PSAPPSRV on servers in integrationGateway.properties
+* Inbound handled by PSAPPSRV on servers listed in integrationGateway.properties
 * Outbound handled by any PSAPPSRV process
-* Tune the number of application servers
+* Adjust the number of PSAPPSRV processes and application servers
 * Limit will be determined by database table locking
 
 <!SLIDE small>
@@ -35,5 +35,3 @@
     # Set it to either TRUE or FALSE
     
     ig.ProfileInformation=TRUE
-
-

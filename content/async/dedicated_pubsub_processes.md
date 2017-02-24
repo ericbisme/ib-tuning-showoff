@@ -3,7 +3,7 @@
 * Service high volume and/or high priority
 * Dedicated queues cannot hold up others
   * Cannot be held up by others
-* Tune the number of handlers
+* Adjust the number of handlers
 
 <!SLIDE[tpl=none]>
 #psadmin - Dedicated Messaging Processes
@@ -61,8 +61,8 @@
     ) {
     
       exec { "Add Dedicated Message server ${name} to ${domain}":
-        command     => "/usr/bin/su -m -s /bin/bash - ${psft_runtime_user_name} -c \"psadmin -c addmsgsrv -d ${domain} -s ${name} -t ${type} ${queue}\"",
-        returns => ["0", "50"],
+        command => "/usr/bin/su -m -s /bin/bash - ${psft_runtime_user_name} -c \"psadmin -c addmsgsrv -d ${domain} -s ${name} -t ${type} ${queue}\"",
+        returns => ['0', '50'],
       }
     
       Ini_setting {
@@ -85,11 +85,12 @@
       ini_setting { "Setting Scan Interval for ${name}":
         section => "PS${type}DSP_${name}",
         setting => 'Scan Interval',
-        value   => ${scan_interval},
+        value   => $scan_interval,
       }
     }
 
 <!SLIDE>
+#psappsrv.cfg Message Config
     @@@ ini
     [PSPUBHND_PERPUB]
     ;===============================================================
@@ -102,4 +103,3 @@
     ; Dynamic change not allowed for the ProcessRestartMemoryLimit
     ProcessRestartMemoryLimit=0
     Allowed Consec Service Failures=0
-

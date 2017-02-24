@@ -6,4 +6,4 @@ CU is a Heavy SYNC User
 * Portal Pagelets
 * Mobile Apps
 * Web Services
-* Search (SES)
+* PeopleSoft Search Framework (SES/Elastic)

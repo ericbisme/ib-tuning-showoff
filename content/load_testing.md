@@ -10,18 +10,19 @@
 
 <!SLIDE>
 # Portal Load test
+* "Tab Walk" User loads each tab on the home page
 * 1 hour
 * 1200 Virtual Users
+* 3500 concurrent users displayed in Google Analytis
 * 3 Campuses
 * 17,000 Logins
 * 15s page load timeout
-* "Tab Walk" User loads each tab on the home page
 
 <!SLIDE>
 # Mobile Load test
+* User Loads all pages in mobile app
 * Delivered Campus Mobile App
 * 1 hour
 * 150 Virtual Users
 * 3 Campuses
 * XXX Transactions
-* User Loads all pages in mobile app
