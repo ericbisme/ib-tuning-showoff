@@ -6,6 +6,10 @@
 * Custom Monitoring
   * Separate alerts for NEW vs ERROR
   * Finer control of time before alert
+* Univeristy of Minnesota
+  * GitHub UMN-PeopleSoft
+  * JAVA
+  * Flexible Configuration
 * Header and Detail logging
   * Can affect performance under load
   * Monitor for logging to be enabled
