@@ -1,6 +1,7 @@
 <!SLIDE>
 # Slave Server Configs
-* Maintains Ordered Queues
+* Increase Capacity
+* Maintain Ordered Queues
 * Pick up if the primary server fails
 * Static Slaves
   * Configured in psappsrv.cfg

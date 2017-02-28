@@ -25,4 +25,3 @@
 * 1 hour
 * 150 Virtual Users
 * 3 Campuses
-* XXX Transactions

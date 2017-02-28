@@ -1,7 +1,6 @@
 <!SLIDE>
 # Common Integration Gateway
-* Upgrade ahead of Other Instances
-* Removes a network/integration hop
+* Upgrade Independent of Other Instances
 * Dedicated WebLogic Heap to Integrations
 * Central Management of Node Definitions
 * Shared Configuration File

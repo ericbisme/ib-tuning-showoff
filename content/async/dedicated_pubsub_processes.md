@@ -44,7 +44,7 @@
     psadmin -c addmsgsrv -d hcmprd -s PERPUB -t PUB PERSON_DATA
     psadmin -c addmsgsrv -d hcmprd -s PERSUB -t SUB PERSON_DATA
 
-<!SLIDE small> 
+<!SLIDE small>
 #puppet - Dedicated Messaging Processes
     @@@ Puppet
     # This is a TYPE to create a single dedicated message process on a PeopleSoft appserver
