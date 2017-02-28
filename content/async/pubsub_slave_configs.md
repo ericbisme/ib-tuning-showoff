@@ -6,5 +6,5 @@
   * Configured in psappsrv.cfg
     * Domain Slave Mode=1
 * Dynamic Slave Option
-  * Configured under failover
+  * Configured in Domain Status, Failover
   * Caveats
