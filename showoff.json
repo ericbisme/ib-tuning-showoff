@@ -32,6 +32,7 @@
 		"content/infrastructure/dedicated_application_servers.md",
 
 		"content/async/dedicated_pubsub_processes.md",
+                "content/async/pubsub_slave_configs.md",
 		"content/async/online_asynchronous_config.md",
 		"content/async/asynchronous_monitoring.md",
 
