@@ -11,11 +11,11 @@
 <!SLIDE small>
 #integrationGateway.properties
     @@@ ini
-    ig.isc.HCMPRD.serverURL=//phcmapp04.prod.cu.edu:9033,//phcmapp05.prod.cu.edu:9033
-    ig.isc.HCMPRD.userid=CU_IBUSER
-    ig.isc.HCMPRD.password={V1.1}I69UZeBy2134E+zLQYXYxA==
+    ig.isc.HCMPRD.serverURL=//server.cu.edu:9033,//server.cu.edu:9033
+    ig.isc.HCMPRD.userid=IBUSER
+    ig.isc.HCMPRD.password={V1.1}IlkjljEr89fEE+zLQYXYxA==
     ig.isc.HCMPRD.toolsRel=8.55.11
-    ig.isc.HCMPRD.DomainConnectionPwd={V1.1}cAZUye0Lbx49Zl/GGpVFgQ==
+    ig.isc.HCMPRD.DomainConnectionPwd={V1.1}dWEnvroi8902Fl/GGpVFgQ==
     
     ...
     
